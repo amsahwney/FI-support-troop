@@ -30,7 +30,7 @@ function Feedback() {
       }
       setNewComment("") //RESET INPUT
 
-      fetch("http://localhost:3000/responses", {
+      fetch('https://fist-json-server.onrender.com/responses', {
         method: "POST",
         headers: {"Content-Type" : "application/json"},
         body: JSON.stringify(submitComment),
