@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 .background-img {
     opacity: 0.9; 
     align-items: center;
     overflow: auto;
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 .page-title {
     text-align: left;

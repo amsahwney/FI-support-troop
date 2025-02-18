@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
 .background-img {
     /* position: relative; */
   
@@ -17,8 +19,6 @@
     /* flex direction is redundant because row is default but i want to remember the default */
     
 }
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
 
 .prompt {
     text-align: left;
