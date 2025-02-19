@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import backgroundImage from '../assets/meadow-transparency.svg';
 import excitedImg from '../assets/excited.svg';
 import excitedHoverImg from '../assets/excited-hover.svg';
 import proudImg from '../assets/proud.svg';
@@ -72,7 +73,7 @@ function Header() {
     <div
       className="background-img"
       style={{
-        backgroundImage: 'url(src/assets/meadow-transparency.svg)',
+        backgroundImage: `url(${backgroundImage})`,
       }}
     >
       <h1 className="prompt">how are you?</h1>
