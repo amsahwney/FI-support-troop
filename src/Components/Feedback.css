@@ -9,6 +9,14 @@ h2{
     color: #fff;
 }
 
+textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #aaa;
+}
+
 .feedback-background{
     background-image: url("../assets/feedback-wallpaper.jpg"); 
     background-size: cover;
@@ -45,5 +53,12 @@ button:focus {
     column-gap: normal;
     display: grid;
     grid-gap: 20px;
+}
+
+.feedback-msg{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
 
